@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(251, 232, 235);
+}
+
+.nav1{
+background-color:rgb(243, 206, 244);
+}
+nav ul li{
+    display:  inline;
+    line-height: 80px;
+    margin: 0 20px ;
+}
+ 
+nav ul li a{
+    color:black;
+    font-size:large;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none; 
+}
+
+nav ul li a:hover{
+    color:blue;
+}
+nav ul li a.active{
+    color:blue;
+   
+}
+.logo_Text{
+margin: 0 20px;
+}
+
+.navbar-Contct_btn{
+ background-color: rgb(253, 4, 224);
+ padding: 10px;
+ border-radius: 10px;
+}
+.Contact_btn{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+/* main img */
+
+main{
+    background-color: rgb(243, 206, 244);
+}
+
+@media screen and (max-width:992px){
+    .mainImg{
+        display: flex;
+    }
+    .overlap_div{
+        float: right;
+        width: 35%;
+        margin-right:15px;
+        display:inline;
+        padding: 25px;
+        top: 100px;
+        left: 50%;
+        font-size: medium;
+   
+    }
+    
+    .main_img{
+        width:60%;
+        height:500px;
+        padding: 10px 10px;
+        position: relative;
+    }
+}
+   
+.mainImg img{
+    width:60%;
+    height: 700px;
+    padding: 20px 20px;
+    position: relative;
+}
+.overlap_div{
+    float: right;
+    width: 45%;
+    margin-right:20px;
+    display:inline;
+    padding: 35px;
+    flex-direction: column;
+    background-color: #fff3f3;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    text-align: center;
+}
+.overlap_div h2{
+    text-align: center;
+    color:rgb(206, 8, 74);
+    line-height: 20px;
+}
+
+/* Coursel */
+.carousel_Section{
+    background-color: pink;
+    margin: 20px 20px;
+    background-color:rgb(8, 8, 8);
+    /* height: 500px;
+    width: 80%;
+    margin: 20px 20px; */
+    border: 2px solid rgb(84, 78, 78);
+    
+ 
+}
+.corousel_img{
+    height: 250px;
+    width: 80%;
+    margin: 20px 20px;
+   
+}
+.corousel_text{
+    color: white;
+
+}
+#services_img{
+    height: 375px;
+    width: 100%;
+}
+#services_main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    background-color:  #F5F5F5;
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+
+.services_info{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+
+}
+
+@media screen and (max-width:600px) {
+    .services_info{
+        flex-direction: column;
+    }
+      
+}
+/* Testomonial */
+.testomonial{
+    width: 100%;
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(244, 240, 241);
+
+    
+}
+.testomonial-div{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+} 
+.testomonial-col{
+    flex-basis: 45%; 
+    border-radius: 10px;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: #f6d0d0;
+    padding: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.testomonial-col img{
+    height: 200px;
+    margin-left: 5px;
+    margin-right: 20px;
+
+    
+   
+    /* border-radius: 50%; */
+}
+.testomonial-col h3{
+margin-top: 10px;
+text-align: left;
+
+}
+.testomonial-col .fa{
+    color: red;
+}
+@media screen and (max-width:786px) {
+    .testomonial-div{
+        flex-direction: column;
+    }
+     
+    
+}
+/* FooterMap */
+.FooterMap{
+    display: flex;
+   
+    background-color: rgb(245, 185, 199);
+    /* margin: 20px; */
+    padding: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* footer */
+
+
+.footer_div{
+    background-color:rgb(244, 226, 229);
+    display:flex;
+    /* width: 90%; */
+    /* margin: 20px 20px; */
+    padding: 20px 20px;
+    justify-content: center;
+      
+}
+.row1{
+    display: flex;
+    align-items: right;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 20px;
+    padding: 25px;
+    ;
+    
+}
+
+.connect_with_us{
+   
+   
+    align-items: center;
+    flex-direction: column;
+  
+  
+}
+.connect_with_us h1{
+    margin-top: 20px;
+}
+
+
+.connect_with{
+   width: 80%;
+   padding-top: 50px;
+   margin: auto;
+   text-align: center;
+   align-items: center;
+   }
+
+.connect_with-col{
+   flex-basis: 30%;
+   border-radius: 10px;
+   text-align: left;
+   margin-bottom: 10px;
+   /* background-color: rgb(164, 164, 174); */
+}
+.connect_with-col h4{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   text-align: left;
+}

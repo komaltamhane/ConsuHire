@@ -1,0 +1,11 @@
+
+@import url(./style.css);
+ @import url(./contact.css);
+@import url(./services.css);
+@import url(./e-waste.css);
+@import url(./about.css);
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
