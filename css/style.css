@@ -56,33 +56,39 @@ main{
     .mainImg{
         display: flex;
     }
-    .overlap_div{
-        float: right;
-        width: 35%;
-        margin-right:15px;
-        display:inline;
-        padding: 25px;
-        top: 100px;
-        left: 50%;
-        font-size: medium;
-   
-    }
+    
     
     .main_img{
-        width:60%;
+        width:100%;
         height:500px;
-        padding: 10px 10px;
-        position: relative;
+        padding: 10px 0px;
+        /* position: relative; */
     }
 }
    
 .mainImg img{
     width:60%;
     height: 700px;
-    padding: 20px 20px;
+    padding: 10px 0px;
     position: relative;
 }
 .overlap_div{
+    float: right;
+    width: 45%;
+    margin-right:15px;
+    display:inline;
+    padding: 25px;
+    flex-direction: column;
+    background-color: bisque;
+    position: absolute;
+
+    top: 250px;
+    left: 50%;
+    text-align: center;
+    font-size: medium;
+
+}
+/* .overlap_div{
     float: right;
     width: 45%;
     margin-right:20px;
@@ -94,7 +100,7 @@ main{
     top: 250px;
     left: 50%;
     text-align: center;
-}
+} */
 .overlap_div h2{
     text-align: center;
     color:rgb(206, 8, 74);
