@@ -6,6 +6,7 @@
 }
 body{
     background-color: rgb(251, 232, 235);
+    
 }
 
 .nav1{
@@ -61,12 +62,12 @@ main{
     .main_img{
         width:100%;
         height:500px;
-        padding: 10px 0px;
+        padding: 0px 0px;
         /* position: relative; */
     }
 }
    
-.mainImg img{
+/* .mainImg img{
     width:60%;
     height: 700px;
     padding: 10px 0px;
@@ -87,7 +88,7 @@ main{
     text-align: center;
     font-size: medium;
 
-}
+} */
 /* .overlap_div{
     float: right;
     width: 45%;
@@ -112,9 +113,9 @@ main{
     background-color: pink;
     margin: 20px 20px;
     background-color:rgb(8, 8, 8);
-    /* height: 500px;
-    width: 80%;
-    margin: 20px 20px; */
+    height: 500px;
+    width: 100%;
+    margin: 10px;
     border: 2px solid rgb(84, 78, 78);
     
  
@@ -281,4 +282,8 @@ text-align: left;
    margin-top: 10px;
    margin-bottom: 10px;
    text-align: left;
+}
+.connect_with-col i{
+    font-size: 25px;
+    color: rgb(72, 0, 255);
 }

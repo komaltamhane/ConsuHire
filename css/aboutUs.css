@@ -1,0 +1,138 @@
+.booking_service {
+    width: 100%;
+    background-color: rgb(250, 213, 248);
+    padding: 20px;
+    margin: 10px;
+}
+
+.booking_service h3 {
+    text-align: center;
+}
+
+.booking_service .Price_header {
+    color: rgb(236, 15, 115);
+    text-align: center;
+    font-size: 50px;
+}
+
+.Booking_service_div {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Booking_service_div img{
+    height: 214px;
+    width: 355px;
+}
+.ser_card {
+    max-width: 70%;
+    text-align: center;
+    height: 200px;
+}
+
+.card_body_Text{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-style: bold;
+}
+.Ser_card_body {
+  
+
+}
+
+.ser_card:hover {
+    box-shadow: 0px 2px 20px 1px black;
+}
+
+/* 
+ */
+ #e-waste-img{
+    width: 100%;
+     height:250px;
+}
+#heading_Element{
+display: flex;
+justify-content: center;
+margin: auto;
+border-bottom: 2px solid black;
+width: 90%;
+align-items: center;
+}
+#heading_Element p{
+font-size: 45px;
+font-weight: 800;
+margin: 20px;
+}
+
+#heading_Element p:hover{
+    text-decoration: underline;
+    color: blue;
+
+}
+#e-waste{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+width: 90%;
+margin: auto;
+padding: 10px;
+
+}
+#e-waste-img2{
+height: 400px;
+width: 400px;
+border-radius: 50%;
+}
+.div1{
+    width: 45%;
+    text-align: center;
+    font-size: 32px;
+}
+.div1 p{
+    font-size: 20px;
+
+}
+.div2{
+    width: 45%;
+}
+.div2 p{
+    font-size: 20px;
+}
+
+@media screen and (max-width:780px) {
+    
+#e-waste{
+    flex-direction: column;
+}
+.div1 , .div2{
+    width: 90%;
+}
+#heading_Element p{
+    font-size: 35px;
+    font-weight: 800;
+    margin: 10px;
+    }
+}
+@media screen and (max-width:400px){
+    #heading_Element p{
+        font-size: 45px;
+        font-weight: 800;
+        margin: 20px;
+        justify-content: space-around;
+        
+        } 
+        #e-waste-img2{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            }  
+            .div2{
+                align-items: center;
+                text-align: center;
+            }
+        
+}
+
