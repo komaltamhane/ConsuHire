@@ -1,9 +1,9 @@
 
 @import url(./style.css);
  @import url(./contact.css);
-@import url(./services.css);
+@import url(./whatWeOffer.css);
 @import url(./AboutUs.css);
-@import url(./about.css);
+/* @import url(./about.css); */
 
 body{
     margin: 0px;
